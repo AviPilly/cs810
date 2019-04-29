@@ -55,3 +55,7 @@ const ll: LinkedList<Coin> = {
 console.log(ll.amount);
 console.log(ll.next.amount);
 console.log(ll.next.next);
+
+// illegal case to note about aliases
+
+// type CustomAliasArray = Array<CustomAliasArray>
